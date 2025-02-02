@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const http = require("http");
 const server = http.createServer(app);
-const io = new Server(server, 8000, {
+const io = new Server(server, {
   cors: true,
 });
 
